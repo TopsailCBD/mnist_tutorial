@@ -60,31 +60,32 @@ C=0.5
 intercept_scaling=0.2
 
 # Q5（神经网络，选用Pytorch实现）
-Epoch 1, Loss: 0.0092, Training accuracy: 94.58%, Testing accuracy: 94.57%
 
-Epoch 2, Loss: 0.0010, Training accuracy: 97.35%, Testing accuracy: 97.42%
+Epoch 1, Loss: 0.0088, Training accuracy: 94.44%, Testing accuracy: 94.41%
 
-Epoch 3, Loss: 0.0007, Training accuracy: 98.07%, Testing accuracy: 97.91%
+Epoch 2, Loss: 0.0010, Training accuracy: 96.95%, Testing accuracy: 96.88%
 
-Epoch 4, Loss: 0.0005, Training accuracy: 98.20%, Testing accuracy: 98.03%
+Epoch 3, Loss: 0.0006, Training accuracy: 97.53%, Testing accuracy: 97.35%
 
-Epoch 5, Loss: 0.0004, Training accuracy: 98.54%, Testing accuracy: 98.32%
+Epoch 4, Loss: 0.0005, Training accuracy: 98.51%, Testing accuracy: 98.29%
 
-Epoch 6, Loss: 0.0004, Training accuracy: 98.84%, Testing accuracy: 98.49%
+Epoch 5, Loss: 0.0004, Training accuracy: 98.67%, Testing accuracy: 98.49%
 
-Epoch 7, Loss: 0.0003, Training accuracy: 98.81%, Testing accuracy: 98.37%
+Epoch 6, Loss: 0.0003, Training accuracy: 99.05%, Testing accuracy: 98.57%
 
-Epoch 8, Loss: 0.0003, Training accuracy: 99.06%, Testing accuracy: 98.61%
+Epoch 7, Loss: 0.0003, Training accuracy: 99.05%, Testing accuracy: 98.62%
 
-Epoch 9, Loss: 0.0003, Training accuracy: 99.15%, Testing accuracy: 98.50%
+Epoch 8, Loss: 0.0003, Training accuracy: 99.20%, Testing accuracy: 98.87%
 
-Epoch 10, Loss: 0.0002, Training accuracy: 99.15%, Testing accuracy: 98.57%
+Epoch 9, Loss: 0.0002, Training accuracy: 99.31%, Testing accuracy: 98.69%
+
+Epoch 10, Loss: 0.0002, Training accuracy: 99.40%, Testing accuracy: 98.82%
 
 使用经典的LeNet结构进行分类任务
 
 损失函数：对数交叉熵
 
-优化器：随机梯度下降
+优化器：随机梯度下降，一阶动量权重为0.1
 
 初始化方式：xavier uniform初始化
 
